@@ -17,8 +17,19 @@ symlink to the `clang++` compiler. Other compilers include `g++` and `gcc`.
 * `if`-statements don't **need** brackets (`{}`) if there is only one conditional
 statement.
 
-	`c++ if (x % 15 == 0)
-		cout << x << " is a multiple of 15.\n"`
+	```c++
+	if (x % 15 == 0) cout << x << " is a multiple of 15.\n"
+	```
 
+	```c++
+	if (x % 15 == 0)
+		cout << x << " is a multiple of 15.\n"
+	```
+
+	```c++
+	if (x % 15 == 0) {
+		cout << x << " is a multiple of 15.\n"
+	}
+	```
 * Incrementing (`++`) or decrementing (`--`) can be used as a prefix or suffix
 (i.e. `++x` or `x++`).
