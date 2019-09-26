@@ -31,5 +31,8 @@ statement.
 		cout << x << " is a multiple of 15.\n"
 	}
 	```
+
 * Incrementing (`++`) or decrementing (`--`) can be used as a prefix or suffix
-(i.e. `++x` or `x++`).
+(i.e. `++x` or `x++`). Using `x++` increments the value of variable `x` **after**
+processing the current statement, while `++x` increments the value of variable
+`x` **before** processing the current statement. [Link](https://stackoverflow.com/questions/1812990/incrementing-in-c-when-to-use-x-or-x)
