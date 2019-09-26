@@ -13,3 +13,12 @@ working through the book.
 * On OSX (currently on 10.14.6), there are multiple different compilers in
 `/usr/bin`. The `c++` "compiler" is not actually a compiler, but rather a
 symlink to the `clang++` compiler. Other compilers include `g++` and `gcc`.
+
+* `if`-statements don't **need** brackets (`{}`) if there is only one conditional
+statement.
+
+	`c++ if (x % 15 == 0)
+		cout << x << " is a multiple of 15.\n"`
+
+* Incrementing (`++`) or decrementing (`--`) can be used as a prefix or suffix
+(i.e. `++x` or `x++`).
