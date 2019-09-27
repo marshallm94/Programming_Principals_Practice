@@ -36,3 +36,9 @@ statement.
 (i.e. `++x` or `x++`). Using `x++` increments the value of variable `x` **after**
 processing the current statement, while `++x` increments the value of variable
 `x` **before** processing the current statement. [Link](https://stackoverflow.com/questions/1812990/incrementing-in-c-when-to-use-x-or-x)
+
+* Type-safety is defined as "objects only being used according to the rules of
+their type." This chapter does outline *safe conversions* (those where no
+information is lost from converting from type X to type Y and the back to type
+X again), however I'm not sure (at this point) if this fall under the umbrella of
+"type-safely" or should be understood as a separate concept.
