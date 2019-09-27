@@ -8,11 +8,11 @@ int main() {
 	int counter = 1;
 	while (counter <= start) {
 		if (counter % 15 == 0) {
-			cout << counter << " is a multiple of 15.\n";
+			cout << counter << " is a multiple of fizzbuzz.\n";
 		} else if (counter % 5 == 0) {
-			cout << counter << " is a multiple of 5.\n";
+			cout << counter << " is a multiple of fizz.\n";
 		} else if (counter % 3 == 0) {
-			cout << counter << " is a multiple of 3.\n";
+			cout << counter << " is a multiple of buzz.\n";
 		} else {
 			cout << counter << " is uninteresting right now.\n";
 		}

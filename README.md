@@ -1,8 +1,8 @@
 # Programmming: Principals and Practice Using C++, 2nd Ed. Notes
 
-Although most of the notes associated with the reading of this book, this
-README will server as "digital scratch paper" for any "general" notes while
-working through the book.
+Although most of the notes associated with the reading of this book will be
+notes/highlights in the book itself, this README will server as
+"digital scratch paper" for any "general" notes while working through the book.
 
 ## Chapter 2 Notes
 
